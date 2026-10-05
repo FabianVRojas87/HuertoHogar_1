@@ -1,0 +1,23 @@
+/* Importar fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  /* Paleta de Colores oficial */
+  --bg-principal: #F7F7F7;
+  --verde-esmeralda: #2E8B57;
+  --amarillo-mostaza: #FFD700;
+  --marron-claro: #8B4513;
+  --texto-principal: #333333;
+  --texto-secundario: #666666;
+
+--font-body: 'Montserrat', sans-serif;
+  --font-heading: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+
+
