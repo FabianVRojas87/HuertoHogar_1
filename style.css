@@ -26,7 +26,15 @@ h1, h2, h3 {
   color: var(--marron-claro);
 }
 
-
+/* Navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #EEEEEE;
+}
 
 
 
