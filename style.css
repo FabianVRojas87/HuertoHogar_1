@@ -14,6 +14,31 @@
   --font-heading: 'Playfair Display', serif;
 }
 
+body {
+  background-color: var(--bg-principal);
+  color: var(--texto-principal);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  color: var(--marron-claro);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
