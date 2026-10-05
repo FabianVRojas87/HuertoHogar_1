@@ -92,7 +92,20 @@ nav a {
   border-radius: 8px;
 }
 
+/* Filtros */
+.filter-buttons {
+  margin-bottom: 25px;
+}
 
+.filter-btn {
+  background-color: #FFFFFF;
+  border: 1px solid var(--verde-esmeralda);
+  color: var(--verde-esmeralda);
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
 
 
 
