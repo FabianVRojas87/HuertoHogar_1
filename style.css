@@ -36,6 +36,18 @@ h1, h2, h3 {
   border-bottom: 2px solid #EEEEEE;
 }
 
+.logo h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--verde-esmeralda);
+}
+
+.tagline {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--texto-secundario);
+}
+
 
 
 
