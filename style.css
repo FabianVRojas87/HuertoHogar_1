@@ -48,7 +48,22 @@ h1, h2, h3 {
   color: var(--texto-secundario);
 }
 
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: var(--texto-principal);
+  font-weight: 600;
+}
 
+.cart-btn {
+  background-color: var(--verde-esmeralda);
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
 
 
 
