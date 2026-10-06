@@ -118,6 +118,51 @@ nav a {
   gap: 20px;
 }
 
+.card {
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card .sku {
+  font-size: 0.8rem;
+  color: var(--texto-secundario);
+}
+.card .precio {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--verde-esmeralda);
+}
+
+.card .origen {
+  background-color: var(--amarillo-mostaza);
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
+
+.btn-add {
+  background-color: var(--verde-esmeralda);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.store-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
 
 
 
