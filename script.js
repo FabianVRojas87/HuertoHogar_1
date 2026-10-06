@@ -62,6 +62,27 @@ const productos = [
   }
 ];
 
+let carrito = [];
+
+// Función para renderizar los productos en la rejilla HTML
+function cargarProductos(listaProductos) {
+  const grid = document.getElementById("product-grid");
+  grid.innerHTML = "";
+
+  listaProductos.forEach(prod => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <span class="sku">${prod.sku}</span>
+      <h3>${prod.nombre}</h3>
+      <span class="origen">Origen: ${prod.origen}</span>
+      <p>${prod.descripcion}</p>
+      <p class="precio">$${prod.precio.toLocaleString("es-CL")} CLP / ${prod.unidad}</p>
+      <button class="btn-add" onclick="agregarAlCarrito('${prod.sku}')">Agregar al Carrito</button>
+    `;
+    grid.appendChild(card);
+  });
+}
 
 
 
