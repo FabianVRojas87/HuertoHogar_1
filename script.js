@@ -99,7 +99,20 @@ function filtrarProductos(categoria) {
   }
 }
 
+// Función para agregar al carrito
+function agregarAlCarrito(sku) {
+  const producto = productos.find(p => p.sku === sku);
+  carrito.push(producto);
+  
+  // Actualizar contador visual
+  document.getElementById("cart-count").innerText = carrito.length;
+  alert(`¡${producto.nombre} agregado al carrito!`);
+}
 
+// Cargar todos los productos al iniciar la página
+document.addEventListener("DOMContentLoaded", () => {
+  cargarProductos(productos);
+});
 
 
 
