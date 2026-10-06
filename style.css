@@ -164,13 +164,20 @@ nav a {
   padding: 0;
 }
 
+.store-list li {
+  background-color: #FFFFFF;
+  border: 1px solid #DDD;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
 
-
-
-
-
-
-
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--texto-principal);
+  color: #FFFFFF;
+  margin-top: 40px;
+}
 
 
 
