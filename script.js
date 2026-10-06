@@ -84,7 +84,20 @@ function cargarProductos(listaProductos) {
   });
 }
 
+// Función para filtrar productos por categoría
+function filtrarProductos(categoria) {
+  // Actualizar estilos de los botones
+  const botones = document.querySelectorAll(".filter-btn");
+  botones.forEach(btn => btn.classList.remove("active"));
+  event.target.classList.add("active");
 
+  if (categoria === "todos") {
+    cargarProductos(productos);
+  } else {
+    const filtrados = productos.filter(p => p.categoria === categoria);
+    cargarProductos(filtrados);
+  }
+}
 
 
 
