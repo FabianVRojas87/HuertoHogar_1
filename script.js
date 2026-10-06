@@ -113,7 +113,12 @@ function agregarAlCarrito(sku) {
 document.addEventListener("DOMContentLoaded", () => {
   cargarProductos(productos);
 });
-
+// Función para finalizar la compra y vaciar el carrito
+function vaciarCarrito() {
+  alert("¡Muchas gracias por tu compra en HuertoHogar!");
+  carrito = []; // Vacía la lista de productos guardados
+  actualizarCarrito(); // Actualiza la pantalla para que el carrito vuelva a verse vacío
+}
 
 
 
